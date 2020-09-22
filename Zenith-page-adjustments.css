@@ -6,7 +6,7 @@
     resize: horizontal !important;
     overflow: auto !important;
       --page-width:100%;
-      width:650px;
+      width:650px; /* Change this value according to whatever default you like*/
 }
 .roam-center .rm-block-text {
   max-width: 100% !important;
@@ -20,8 +20,8 @@
 }
 
 .sidebar-content > div {
-      max-width:2000px !important;
-      min-width:100px !important;
+      max-width:2000px !important;  /* Change this value to whatever maximum width you want */
+      min-width:100px !important;  /* Change this value to whatever minimum width you want */
       width: auto !important;
 }
 .sidebar-content > div > div > div:not(.window-headers) {
