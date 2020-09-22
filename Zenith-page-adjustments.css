@@ -1,0 +1,32 @@
+/*Small temporary hack for Zenith-based themes!*/
+
+/*Allow adjustment for main body*/
+.roam-center {
+    flex-basis: auto !important;
+    resize: horizontal !important;
+    overflow: auto !important;
+      --page-width:100%;
+      width:650px;
+}
+.roam-center .rm-block-text {
+  max-width: 100% !important;
+}
+
+/*Allow adjustment for sidebar*/
+.sidebar-content > div > div {
+    flex-basis: auto !important;
+    resize: horizontal !important;
+    overflow: auto !important;
+}
+
+.sidebar-content > div {
+      max-width:2000px !important;
+      min-width:100px !important;
+      width: auto !important;
+}
+.sidebar-content > div > div > div:not(.window-headers) {
+  width:100% !important;
+}
+.sidebar-content .roam-block-container {
+  max-width:100% !important;
+}
